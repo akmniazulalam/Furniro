@@ -125,3 +125,471 @@ h1,h2,h3,h4,h5,h6,p{
 .dining img, .living img, .bedroom img{
     width: 100%;
 }
+#product{
+    text-align: center;
+}
+.productImages{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#product h3{
+    font-weight: 700;
+    font-size: 40px;
+    color: #3A3A3A;
+    margin-bottom: 42px;
+}
+.syltherine{
+    height: 446px;
+    width: 285px;
+    position: relative;
+    line-height: 0;
+    margin-bottom: 35px;
+}
+.syltherine:hover .overlay{
+    opacity: 1;
+}
+.syltherine .overlay{
+    background: rgba(0, 0, 0, 0.507);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    opacity: 0;
+}
+.syltherine picture img{
+    width: 100%;
+}
+.syltherine .discount{
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    background: #E97171;
+    position: absolute;
+    top: 23px;
+    right: 23px;
+}
+.syltherine .discount h6{
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+.contents{
+    padding: 19px;
+    background: #F4F5F7;
+    text-align: left;
+}
+.contents h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #3A3A3A;
+    padding-bottom: 8px;
+}
+.contents h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #898989;
+    padding-bottom: 8px;
+}
+.contents p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #3A3A3A;
+    padding-bottom: 8px;
+}
+.contents p span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b0b0b0;
+    padding-left: 10px;
+}
+.addToCart a{
+    background: white;
+    font-size: 16px;
+    font-weight: 600;
+    color: #B88E2F;
+    padding: 22px 51px;
+    margin-top: 178px;
+}
+.overlayContent{
+    margin: 0 auto;
+}
+.overlayIcons{
+    display: flex;
+    margin-top: 30px;
+}
+.overlayIcons .share a h2, .overlayIcons .compare a h2, .overlayIcons .heart a h2{
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    padding-top: 3px;
+    padding-left: 3px;
+}
+.overlayIcons .share a, .overlayIcons .compare a, .overlayIcons .heart a{
+    display: flex;
+    padding: 0 12px;
+}
+
+
+.leviosa{
+    height: 446px;
+    width: 285px;
+    position: relative;
+    line-height: 0;
+    margin-bottom: 35px;
+}
+.leviosa:hover .overlay{
+    opacity: 1;
+}
+.leviosa .overlay{
+    background: rgba(0, 0, 0, 0.507);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    opacity: 0;
+}
+.leviosa picture img{
+    width: 100%;
+}
+
+.leviosa .discount h6{
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+.lolito{
+    height: 446px;
+    width: 285px;
+    position: relative;
+    line-height: 0;
+    margin-bottom: 35px;
+}
+.lolito:hover .overlay{
+    opacity: 1;
+}
+.lolito .overlay{
+    background: rgba(0, 0, 0, 0.507);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    opacity: 0;
+}
+.lolito picture img{
+    width: 100%;
+}
+.lolito .discount{
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    background: #E97171;
+    position: absolute;
+    top: 23px;
+    right: 23px;
+}
+.lolito .discount h6{
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+.lolito .contents p span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b0b0b0;
+    padding-left: 5px;
+}
+
+
+
+.respira{
+    height: 446px;
+    width: 285px;
+    position: relative;
+    line-height: 0;
+    margin-bottom: 35px;
+}
+.respira:hover .overlay{
+    opacity: 1;
+}
+.respira .overlay{
+    background: rgba(0, 0, 0, 0.507);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    opacity: 0;
+}
+.respira picture img{
+    width: 100%;
+}
+.respira .discount{
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    background: #2EC1AC;
+    position: absolute;
+    top: 23px;
+    right: 23px;
+}
+.respira .discount h6{
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+.respira .contents p span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b0b0b0;
+    padding-left: 5px;
+}
+
+
+.grifo{
+    height: 446px;
+    width: 285px;
+    position: relative;
+    line-height: 0;
+    margin-bottom: 35px;
+}
+.grifo:hover .overlay{
+    opacity: 1;
+}
+.grifo .overlay{
+    background: rgba(0, 0, 0, 0.507);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    opacity: 0;
+}
+.grifo picture img{
+    width: 100%;
+}
+.grifo .discount{
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    background: #2EC1AC;
+    position: absolute;
+    top: 23px;
+    right: 23px;
+}
+.grifo .discount h6{
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+.grifo .contents p span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b0b0b0;
+    padding-left: 5px;
+}
+
+
+
+.muggo{
+    height: 446px;
+    width: 285px;
+    position: relative;
+    line-height: 0;
+    margin-bottom: 35px;
+}
+.muggo:hover .overlay{
+    opacity: 1;
+}
+.muggo .overlay{
+    background: rgba(0, 0, 0, 0.507);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    opacity: 0;
+}
+.muggo picture img{
+    width: 100%;
+}
+.muggo .discount{
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    background: #2EC1AC;
+    position: absolute;
+    top: 23px;
+    right: 23px;
+}
+.muggo .discount h6{
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+.muggo .contents p span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b0b0b0;
+    padding-left: 5px;
+}
+
+
+.pingky{
+    height: 446px;
+    width: 285px;
+    position: relative;
+    line-height: 0;
+    margin-bottom: 35px;
+}
+.pingky:hover .overlay{
+    opacity: 1;
+}
+.pingky .overlay{
+    background: rgba(0, 0, 0, 0.507);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    opacity: 0;
+}
+.pingky picture img{
+    width: 100%;
+}
+.pingky .discount{
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    background: #E97171;
+    position: absolute;
+    top: 23px;
+    right: 23px;
+}
+.pingky .discount h6{
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+.pingky .contents p span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b0b0b0;
+    padding-left: 5px;
+}
+
+
+
+.potty{
+    height: 446px;
+    width: 285px;
+    position: relative;
+    line-height: 0;
+    margin-bottom: 35px;
+}
+.potty:hover .overlay{
+    opacity: 1;
+}
+.potty .overlay{
+    background: rgba(0, 0, 0, 0.507);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    opacity: 0;
+}
+.potty picture img{
+    width: 100%;
+}
+.potty .discount{
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    background: #2EC1AC;
+    position: absolute;
+    top: 23px;
+    right: 23px;
+}
+.potty .discount h6{
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+.potty .contents p span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #b0b0b0;
+    padding-left: 5px;
+}
+.showMore{
+    text-align: center;
+}
+.showMore a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #B88E2F;
+    border: 1px solid #B88E2F;
+    padding: 16px 74px;
+    margin-bottom: 35px;
+    transition: ease-in-out;
+}
+.showMore a:hover{
+    background: #B88E2F;
+    color: #fff;
+}
