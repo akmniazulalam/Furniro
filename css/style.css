@@ -57,9 +57,32 @@ p {
 
 .menu ul li a {
     color: #000;
-    font-size: 500;
+    font-weight: 500;
     font-size: 16px;
     padding: 0 36px;
+    transition: .3s;
+}
+.menu ul li a:hover{
+    color: #150283;
+    font-size: 18px;
+
+}
+.dropdownAbout {
+    display: inline-block;
+    position: relative;
+}
+.dropdownAbout:hover .dropdownMenus{
+    opacity: 1;
+}
+
+
+.dropdownMenus {
+    position: absolute;
+    top: 34px;
+    width: 162px;
+    background: cornflowerblue;
+    padding-top: 12px;
+    opacity: 0;
 }
 
 .icons svg {
